@@ -1,0 +1,15 @@
+
+public class TestaCondicional {
+	public static void main(String[] args) {
+		int idade = 10;
+		if(idade >=18) {
+			System.out.println("voce não é novinho");
+			
+		}else if(idade <15) {
+			System.out.println("vc tem idade para ir no carrinho de rolima");
+			
+		}else if(idade<12) {
+			System.out.println("vc é novinho mesmo tiu");
+		}
+	}
+}
