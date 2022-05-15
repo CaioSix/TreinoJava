@@ -22,9 +22,6 @@ public class Conta {
 		if(this.saldo >= valor) {
 			this.saldo -= valor;
 			destino.deposita(valor);
-			return true;
-		}else {
-			return false;
 		}
 	}
 	
