@@ -4,7 +4,7 @@ public class TestaSacaNegativo {
 		Conta contaDoCaio = new Conta();
 		contaDoCaio.deposita(100);
 		contaDoCaio.deposita(200);
-		System.out.println(contaDoCaio.pegaSaldo());
+		System.out.println(contaDoCaio.getSaldo());
 		
 	}
 }

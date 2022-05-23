@@ -19,10 +19,10 @@ public class testaBanco {
 		contaDaLorrana.titular.nome = "lorraan";
 		contaDaLorrana.deposita(500);
 		
-		System.out.println("saldo da conta do caio" + contaDoCaio.pegaSaldo());
+		System.out.println("saldo da conta do caio" + contaDoCaio.getSaldo());
 		//System.out.println(contaDaLorrana.saldo);
 		contaDaLorrana.transfere(300, contaDoCaio);
-		System.out.println("saldo da conta do caio" + contaDoCaio.pegaSaldo());
+		System.out.println("saldo da conta do caio" + contaDoCaio.getSaldo());
 		
 		
 	}
