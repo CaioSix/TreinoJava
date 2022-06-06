@@ -5,7 +5,7 @@ public class TesteReferencias {
 		Gerente g1 = new Gerente();
 		g1.setSalario(5000.0);
 		
-		Funcionario f1 = new Funcionario();
+		Designer f1 = new Designer();
 		f1.setSalario(2000.0);
 		
 		EditorVideo e1 = new EditorVideo();
